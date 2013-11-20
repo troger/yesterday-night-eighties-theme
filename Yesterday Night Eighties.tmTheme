@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
   <key>comment</key>
-  <string>http://chriskempson.com</string>
+  <string>Fork of Tommorow Night - Eighties: https://github.com/chriskempson/tomorrow-theme/</string>
   <key>name</key>
-  <string>Tomorrow Night - Eighties</string>
+  <string>Yesterday Night - Eighties</string>
   <key>settings</key>
   <array>
     <dict>
