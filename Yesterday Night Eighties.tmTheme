@@ -51,9 +51,9 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Variable, String Link, Tag Name, GitGutter deleted</string>
+      <string>Variable, String Link, GitGutter deleted</string>
       <key>scope</key>
-      <string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag, markup.deleted.git_gutter</string>
+      <string>variable, support.other.variable, string.other.link, markup.deleted.git_gutter</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -62,7 +62,29 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+      <string>Tag Name</string>
+      <key>scope</key>
+      <string>entity.name.tag, meta.tag, meta.tag.other, declaration.tag, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CC99CC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tag Attribute</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6699CC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Number, Constant, Function Argument, Embedded</string>
       <key>scope</key>
       <string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
       <key>settings</key>
